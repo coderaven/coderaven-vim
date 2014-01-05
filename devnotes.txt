@@ -1,0 +1,44 @@
+Google Web Cache
+================
+http://webcache.googleusercontent.com/search?q=cache:http://example.com/
+
+Powershell Notes
+===============
+
+Font
+-----
+Family 	: Consolas
+Style	: Bold
+Size	: 18
+
+Layout
+------
+Window Size Width: 120
+Window Size Height: 30
+
+Color
+-----
+Screen Background : 0,0,0
+Screen Text		  : 0,150,255
+
+CD to an environment variable in Powershell
+-------------------------------------------
+cd $env:<environment variable here>  // You can also use tab for auto-completion
+
+
+View all environment variables in Powershell
+--------------------------------------------
+Get-Childitem env:  // Use tab if you like
+
+
+VIM Notes
+==========
+# 	: Highlight all words selected by cursor
+% 	: Highlight matching tag brace
+V	: Highlight line
+vw 	: Highlight word including spaces
+ve	: Highlight word only
+vee	: Highlight to words
+vG	: Highlight up to end
+vgg	: Highlight up to start
+
